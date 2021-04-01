@@ -1,0 +1,22 @@
+.AddTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  background-color: rgb(21, 180, 159);
+}
+.addField {
+  display: flex;
+  width: 70%;
+}
+.addField > * {
+  margin: 1%;
+}
+h1 {
+  color: white;
+}
+.addTaskForm{
+  width: 300px !important;
+  margin-left: auto;
+}

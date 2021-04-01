@@ -1,0 +1,29 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 1.5%;
+  /* border-bottom: 2px rgb(0, 0, 0) solid; */
+
+}
+.task h4 {
+  max-width: 80%;
+  word-wrap: break-word;
+}
+.done-btn {
+  height: 50%;
+}
+.Task_Number {
+  color:#15b49f;
+}
+.TaskCard{
+  width: 300px;
+  transition: 1s;
+}
+.TaskFooter{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
