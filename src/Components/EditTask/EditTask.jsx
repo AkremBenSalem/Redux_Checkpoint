@@ -7,7 +7,7 @@ function EditTask({ taskID }) {
     const [show, setShow] = useState(false);
     const [editThisTask, setEditTask] = useState("")
 
-    const handleClose = () => setShow(false);
+    const handleClose = () => {setEditTask(''); setShow(false);}
     const handleShow = () => setShow(true);
     const dispatch = useDispatch()
     const handleChange = (input) => {

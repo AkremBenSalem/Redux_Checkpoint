@@ -14,8 +14,11 @@ function AddTask() {
 
     const dispatch = useDispatch()
     const handleSubmit = () => {
+        if(newTask === ""){}
+        else{
         dispatch(addTask({ newTask: newTask }))
         setNewTask('')
+    }
     }
 
     return (
